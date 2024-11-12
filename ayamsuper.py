@@ -5,8 +5,6 @@ import pandas as pd
 file_path = 'https://raw.githubusercontent.com/nuruldini/Assignment/refs/heads/main/lookup_premise.csv'
 df = pd.read_csv(file_path)
 
-# Delete the first column
-df = df.drop(df.columns[0], axis=1)
 
 # Display the DataFrame without the first column using Streamlit
 st.write(df)
