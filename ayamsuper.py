@@ -5,13 +5,13 @@ file_path = 'https://raw.githubusercontent.com/nuruldini/Assignment/refs/heads/m
 df = pd.read_csv(file_path)
 
 df
-st.write(df)
+
 
 # Filter the DataFrame to include only rows where the 'state' column is 'Pahang'
 df_NS= df[df['state'] == 'Negeri Sembilan']
 
 df_NS
-st.write(df_NS)
+
 
 import streamlit as st
 import pandas as pd
