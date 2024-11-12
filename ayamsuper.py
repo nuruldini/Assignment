@@ -11,8 +11,6 @@ st.write(df)
 # Filter the DataFrame to include only rows where the 'state' column is 'Negeri Sembilan'
 df_NS = df[df['state'] == 'Negeri Sembilan']
 
-# Reset the index and create a new column with sequential numbers for 'bill number'
-df_NS['bill number'] = range(1, len(df_NS) + 1)
 
 # Display the updated filtered DataFrame
 st.write(df_NS)
