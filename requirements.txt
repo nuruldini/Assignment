@@ -1,3 +1,4 @@
 pandas
 matplotlib
+google-colab
 streamlit
