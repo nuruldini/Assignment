@@ -11,5 +11,5 @@ df
 df_NS= df[df['state'] == 'Negeri Sembilan']
 
 df_NS
-
+st.write(df_NS)
 
